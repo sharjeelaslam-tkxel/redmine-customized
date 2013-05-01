@@ -2,18 +2,10 @@
 # with MySQL and ruby1.9, replace the adapter name with `mysql2`.
 # Examples for PostgreSQL and SQLite3 can be found at the end.
 
-#production:
-#  adapter: mysql
-#  database: danvatest
-#  host: localhost
-#  username: danvatest
-#  password: "yRYdCNY2qJQtFQCUlHkl"
-#  encoding: utf8
-
 development:
   adapter: mysql2
 #  database: danvatest123
-  database: redmine-dev
+  database: redmine_tivilon
   host: localhost
   username: root
   password: ""
